@@ -1,0 +1,39 @@
+#nav-bar li:nth-child(2) a {
+    font-family: GMedium;
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap;
+    padding-top: 70px;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+    padding: auto 50px;
+}
+
+#about_text {
+    text-align: left;
+    width: 640px;
+    height: 600px;
+}
+
+#about_text h1 {
+    margin-bottom: 10px;
+}
+
+#about_text h2 {
+    margin-top: 0px;
+}
+
+#about_photo {
+    width: 640px;
+    height: 600px;
+}
+
+#about_photo img {
+    flex-shrink: 1;
+    width: 640px;
+    height: auto;
+    padding-top: 90px;
+}
